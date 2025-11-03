@@ -1,43 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <title>John Doe Resume</title>
-</head>
-<body>
-    <head>
-        <h1>John Doe</h1><hr>
-        <p>Web Developer</p>
+    <title>John Doe Resume</title>
+    <meta name="John-Doe" content="Resume-johndoe-lookin-for-job">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vend+Sans&display=swap" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <style>
+        /* head-title decorate */
+        .head-title{
+        font-family: "Vend Sans", sans-serif;
+        font-style: bold;
+        background-color:#ffb759;
+        color: hsl(240, 100%, 100%);
+        font-family: "Vend Sans", sans-serif;
+        font-weight: 400;
+        font-style: bold;
+        text-align: left;
+        }
+        .head-title2{
+        font-family: "Vend Sans", sans-serif;
+        font-style: bold;
+        background-color:#94d88b;
+        color: hsl(240, 100%, 100%);
+        font-family: "Vend Sans", sans-serif;
+        font-weight: 400;
+        font-style: bold;
+        text-align: left;
+        }
+        /*content decorate  */
+        /* .text-content{
+        border-left: 6px solid #ffb759;
+        }
+        .text-content2{
+        border: 3px solid #64d555;
+        border-radius: 2px
+        } */
+        .text-content,.text-content2{
+        font-family: Helvetica;
+        font-weight: normal;
+        }
+     </style>
     </head>
+<body>
+    <header>
+        <h1 class="head-title">John Doe</h1>
+        <p class="text-content">Web Developer</p>
+    </header>
     <main>
         <article>
-            <h2>About Me</h2><hr>
+            <h2 class="head-title2">About Me</h2>
                 <img src="https://introduction-to-web-application.vercel.app/profile.jpg" alt="photo of John Doe"
                 style="width:200px;height:200px;">
-                <p>I am a passionate web developer with experience in HTML, CSS, and JavaScript.</p>
+                <p class="text-content2">I am a passionate web developer with experience in HTML, CSS, and JavaScript.</p>
         </article>
         <article>
-            <h2>Experience</h2><hr>
+            <h2 class="head-title">Experience</h2>
             <h3>Web Developer</h3>
-            <p>XYZ Company - June 2020 to Present</p>
+            <p class="text-content">XYZ Company - June 2020 to Present</p>
                 <ul>
                 <li>Developed responsive websites using HTML, CSS, and JavaScript.</li>
                 <li>Collaborated with team members to implement new features and improve existing ones.</li>
                 </ul>
         </article>
         <article>
-            <h2>Education</h2><hr>
+            <h2 class="head-title2">Education</h2>
             <h3>Bachelor of Science in Chemistry</h3>
-            <p>ABC University - Graduated in 2019</p>
+            <p class="text-content2">ABC University - Graduated in 2019</p>
+        </article>
+        <article>
+            <h2 class="head-title">Contact Me</h2>
+            <p class="text-content">Email:<a href="john.doe@example.com">john.doe@example.com</a></p>
+            <p class="text-content">Phone: +1234567890</p>
+            <p class="text-content">LinkedIn: johndoe<a href="https://www.linkedin.com/in/johndoe">(https://www.linkedin.com/in/johndoe)</a></p><br>
         </article>
     </main>
-    <footer>
-        <article>
-            <h2>Contact Me</h2><hr>
-            <p>Email:<a href="john.doe@example.com">john.doe@example.com</a></p>
-            <p>Phone: +1234567890</p>
-            <p>LinkedIn: johndoe<a href="https://www.linkedin.com/in/johndoe">(https://www.linkedin.com/in/johndoe)</a></p><br>
-        </article>
-    </footer>
-
 </body>
 </html>
